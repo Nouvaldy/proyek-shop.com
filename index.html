@@ -1,0 +1,62 @@
+<!DOCTYPE html><html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop.com</title>
+ 
+    <!-- My JS -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- CDN font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <!-- Font Poppins & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+        <img loading="lazy" class="logo" src="assets/image/logo.svg" alt="logo">
+        <nav>
+            <ul class="nav-ul">
+                <li><a class="beranda" href="#">Beranda</a></li>
+                <li class="dropdown">
+                  <a class="dropbtn" href="javascript:myFunction();" >Produk</a>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Shirts</a>
+                    <a href="#">Jeans</a>
+                    <a href="#">Chinos</a>
+                  </div>
+                </li>
+                <li><a href="#">Ulasan</a></li>
+                <li><a href="#">Keranjang</a></li>
+            </ul>
+        </nav>
+        <a href="javascript:myBurger();", class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+    </header>
+    <main>
+        <article>
+            <h1>Click & Collect</h1>
+            <p>Memudahkanmu berbelanja!<br><br>Sekarang kamu bisa checkout online di web dan aplikasi. Lalu ambil di store terdekat di kotamu.</p>
+            <a class="store" href="#">Find Nearby Store</a>
+        </article>
+        <aside>
+            <img loading="lazy" class="figure1" src="assets/image/clothing1.jpg" >
+            <div class="figure2-3">
+                <img loading="lazy" class="figure2" src="assets/image/clothing2.jpg" >
+                <img loading="lazy" class="figure3" src="assets/image/clothing3.jpg" >
+            </div>
+        </aside>
+    </main>
+    <footer> 
+      <p> &#169; 2024, Shop.com</p>
+    </footer>
+  </body>
+</html>
